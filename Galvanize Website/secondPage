@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+ Nicholas Tzavaras personal website. I've used a previous website's backbone for this one.
+ 
+ @author Nicholas Tzavaras
+ @version 
+-->
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="tzavarasStyles.css">
+    <title>Nicholas Tzavaras' Personal Website</title>
+</head>
+    
+<body>
+    <div id="wrapper">
+        
+        <header>
+            <div id="header">
+                <div id="headertext">
+                <h1>Nicholas Tzavaras</h1>
+                <h2>(How you say that?! It's pronounced Ja-var-us)</h2>
+                </div>
+            </div>
+            
+            <div id="navigationbar">
+                <ul id ="navigation">
+                    <li><a href="index.html">Current</a>
+                    <li><a href="secondPage.html">Where I'm Going</a>   
+                </ul>
+            </div>
+        </header>
+
+        <div id="site_content">
+            
+            
+            <div id="content">
+                <h1>It's wonderful to meet you all!</h1>
+                <h5><strong></strong></h5>
+                <p>Hey everybody! I'm sure you have all been just as excited as I have.
+                    I'm Nick, I'm 32. I have a little girl (almost 3 years old already!) and two kitties.
+                </p>
+                <img src="39134946_2422486334428249_2682454067036291072_n.jpg" alt=""/>
+                <h1>Aurora and I</h1>               
+                <img src="38425116_2402957579714458_2034482083484663808_o-min.jpg" alt=""/>
+                <h1>My favorite things!</h1>
+                <img src="39064409_2422416204435262_2593159004007956480_n-min.jpg" alt=""/>
+                <h2>A quick peek at Nick!</h2>
+                <h5 id="centertext"><strong>A little bit of everything</strong></h5>
+                <p>I'm am a military brat. My pops was in the Air Force (Lt. Col) so I moved quite a bit. I've lived in most parts of the united states,
+                    but I did most of growing up in Las Vegas, NV. I've recently just completed my CS Associates at Front Range Community college. It was 
+                    a great experience. I did the two year program in three years (My daughter was born in the middle of that... o.O") while having a full
+                    time job at Natural Grocers in Boulder. After a new baby, work, and school... I'm looking forward to "just" Galvanize. (Ask me what was harder in six months! haha)
+              </p>               
+                <h5 id="centertext"><strong>Wait, parents have time for HOBBIES?!</strong></h5>
+                <p>
+                    I try my best to have as much fun as I work, which is not easy. Besides the obvious Dad stuff I do with my daughter,
+                    I also enjoy skateboarding, I try to get a few miles in everyday. I really enjoy watching hockey and football, Vegas Golden Knights 
+                    and the Broncos. I'm a pretty avid video gamer. I have a very small streaming channel that I am trying to grow. All of this of course happens
+                    pretty rarely, but i do try to squeeze it in!
+                </p>
+            </div>
+        </div>
+        
+        <div id="footer">
+             Copyright &copy <script language="javascript">
+                                var today = new Date();
+                                document.write(today);
+                               </script>; 
+                Tzavaras| <a href="https://www.twitch.tv/stinkfloyd">Stinkfloyd's Twitch</a> 
+        </div>
+    </div>
+</body>
+  
+</html>

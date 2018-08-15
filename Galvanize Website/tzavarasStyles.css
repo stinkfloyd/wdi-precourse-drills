@@ -1,0 +1,257 @@
+/*
+Personal Website Style Sheet
+ 
+ @author Nicholas Tzavaras
+ @version Student Project
+*/
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*TODO ADD BACKGROUND IMAGE*/
+    font: normal .80em 'trebuchet ms', arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+p {
+    padding: 0 0 20px 0;
+    line-height: 1.7em;
+}
+
+img {
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: normal 175% 'century gothic', arial, sans-serif;
+    color: red;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+}
+
+h2 {
+    font: normal 175% 'century gothic', arial, sans-serif;
+}
+
+h4, h5, h6{
+    margin: 0;
+    padding: 0 0 5px 0;
+    font: normal 120% arial, sans-serif;
+}
+
+h5, h6{ 
+    font: italic 95% arial, sans-serif;
+    padding: 0 0 15px 0;
+}
+
+.left { 
+    float: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.right {
+    float: right; 
+    width: auto;
+    margin-left: 10px;
+}
+
+.center { 
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+ul { 
+    margin: 2px 0 22px 17px;
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0; 
+    padding: 0 0 4px 5px;
+}
+
+#wrapper, #header, #navigationbar { 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+header {
+    background: transparent;
+    height: 202px;
+}
+
+#header {
+    width: 898px;
+    position: relative;
+    height: 148px;
+    border-bottom: 2px solid white;
+}
+
+#header #headertext {
+    position: absolute; 
+    top: 20px;
+    left: 0;
+}
+
+#header h1, #header h2 {
+    font: normal 300% 'century gothic', arial, sans-serif;
+    border-bottom: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+
+#header h2 {
+    font-size: 100%;
+    padding: 4px 0 0 0;
+    color: white;
+}
+
+#navigationbar {
+    width: 898px;
+    height: 52px;
+    padding: 0;
+    background: black;
+}
+
+ul#navigation, ul#navigation li {
+    float: left;
+    margin: 0; 
+    padding: 0;
+}
+
+ul#navigation li { 
+    list-style: none;
+}
+
+ul#navigation li a {
+    letter-spacing: 0.1em;
+    font: normal 100% arial, sans-serif;
+    display: block; 
+    float: left; 
+    height: 17px;
+    margin: 10px 0 0 10px;
+    padding: 9px 26px 6px 26px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+} 
+
+ul#navigation li a:hover, ul#navigation li.selected a, ul#navigation li.selected a:hover {
+    color: gray;
+}
+
+#site_content { 
+    width: 854px;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 24px 20px 20px;
+    background: transparent;
+}
+
+#content { 
+    text-align: left;
+    float: left;
+    width: 595px;
+    padding: 0;
+}
+
+.sidebar { 
+    float: right;
+    width: 210px;
+    padding: 0 15px 20px 15px;
+}
+
+.sidebar ul { 
+    width: 198px; 
+    padding: 4px 0 0 0; 
+    margin: 4px 0 30px 0;
+}
+
+.sidebar li { 
+    list-style: none; 
+    padding: 0 0 7px 0;
+}
+
+.sidebar li a, .sidebar li a:hover { 
+    padding: 0 0 0 40px;
+    display: block;
+    background: transparent no-repeat left center;
+} 
+
+#resizeindex {
+    width: 100px;
+    height: 100px;
+}
+
+#pizzaofweek {
+    width: 200px;
+    height: 200px;
+}
+
+#owner {
+    width: 250px;
+    height: 250px;
+}
+
+#beer {
+    width: 300px;
+    height: 300px;
+}
+
+#quicknews1 {
+    height: auto;
+    width: auto;
+}
+
+#centertext {
+    text-align: center;
+}
+
+#centertextitalics {
+    text-align: center;
+    font-style: italic;
+}
+
+#italics {
+    font-style: italic;
+}
+
+th {
+    font-size: larger;
+}
+
+td {
+    font-style: italic;
+}
+
+#games {
+    column-count: 2;
+    list-style-image: url(controller.png);
+    column-gap: 4em;
+    padding-left: 75px;
+}
+
+#footer { 
+    width: 898px;
+    font: normal 100% 'lucida sans unicode', arial, sans-serif;
+    height: 33px;
+    padding: 24px 0 5px 0;
+    text-align: center; 
+    background: transparent;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: auto;
+    margin-right: auto;
+}
